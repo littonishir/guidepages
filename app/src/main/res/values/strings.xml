@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">guidepages</string>
+    <item name="id_page" type="id" />
+
+</resources>
