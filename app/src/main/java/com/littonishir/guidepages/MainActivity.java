@@ -13,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         contentFrameLayout = findViewById(R.id.contentFrameLayout);
         // 设置资源文件和选中圆点
-        contentFrameLayout.setUpViews(this,new int[]{
+        contentFrameLayout.setUpViews(new int[]{
                 R.layout.page_tab1,
                 R.layout.page_tab2,
                 R.layout.page_tab3,
                 R.layout.page_tab4
-        }, R.drawable.guide_on, R.drawable.guide_off);
+        }, R.drawable.guide_on, R.drawable.guide_off,this);
 
     }
 }
