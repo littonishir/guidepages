@@ -1,7 +1,7 @@
 package com.littonishir.guidepages;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
                 R.layout.page_tab2,
                 R.layout.page_tab3,
                 R.layout.page_tab4
-        }, R.drawable.guide_on, R.drawable.guide_off,this);
+        }, R.drawable.guide_on, R.drawable.guide_off, this);
 
     }
 }

@@ -38,7 +38,7 @@ public class PageFrameLayout extends FrameLayout implements ViewPager.OnPageChan
      * @param mainActivity
      * @param layoutIds
      */
-    public void setUpViews(int[] layoutIds, int dot_on, int dot_off,MainActivity mainActivity) {
+    public void setUpViews(int[] layoutIds, int dot_on, int dot_off, MainActivity mainActivity) {
         this.dot_on = dot_on;
         this.dot_off = dot_off;
         iv_vp = new ImageView[layoutIds.length];
