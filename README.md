@@ -13,7 +13,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 ```
 
-## 2.设置资源文件及
+## 2.设置资源文件及指示器圆点
 
 ```java
 public class MainActivity extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         contentFrameLayout = findViewById(R.id.contentFrameLayout);
-        // 设置资源文件及zhishiqi选中圆点
+        // 设置资源文件及指示器圆点
         contentFrameLayout.setUpViews(new int[]{
                 R.layout.page_tab1,
                 R.layout.page_tab2,
